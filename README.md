@@ -68,3 +68,12 @@ india_digest_ai/
 ├── config.py                   # API keys (Reddit, YouTube)
 ├── main.py                     # Pipeline runner
 └── README.md
+
+Scrapers → DataFrame → LangChain Summarizer
+   ↓                  ↓
+ Save CSV            Generate PDF
+   ↓                  ↓
+ Upload to S3 ←———→ Send SNS Alert
+                          ↑
+                        Scheduler (weekly)
+
