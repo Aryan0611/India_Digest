@@ -7,8 +7,7 @@ The project combines **Web Scraping**, **Python/Pandas**, and **Generative AI** 
 
 ## 📸 Project Snapshot
 
-![IndiaDigest Banner](https://raw.githubusercontent.com/<your-username>/<your-repo>/main/assets/indianews_banner.png)
-
+<img width="1500" height="1024" alt="Image" src="https://github.com/user-attachments/assets/f8dc33cf-5d6c-4de7-963f-732445b330e2" />
 
 
 ---
