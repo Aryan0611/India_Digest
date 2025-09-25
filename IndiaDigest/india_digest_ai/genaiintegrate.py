@@ -1,10 +1,10 @@
-import pandas as pd
+import streamlit as st
 from langchain.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
-from langchain.chains import LLMChain
+from langchain.chains import LLMChain, SequentialChain
+from langchain_community.llms import Ollama
 
-# Initialize GPT model
-llm = ChatOpenAI(model="gpt-4", temperature=0.5)
+# Initialize the LLM
+llm = Ollama(model="llama3.1:8b", temperature=0.2)
 
 # ----------- PROMPT TEMPLATES -----------
 
@@ -94,3 +94,4 @@ def expert_commentary(news_csv, topic):
     articles_text = "\n".join(df["title"].head(5).tolist())
     chain = LLMChain(llm=llm, prompt=expert_prompt)
     return chain.run(topic=topic, articles=articles_text)
+
