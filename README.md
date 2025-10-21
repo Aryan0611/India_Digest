@@ -1,7 +1,7 @@
 # 📰 IndiaDigest: GenAI-Powered Weekly Newsletter
 
 IndiaDigest is an **AI-powered news and social media analytics tool** that scrapes live data from **Google News, Reddit, and YouTube**, analyzes public sentiment, and generates **weekly digest summaries** using **GenAI (LangChain + LLMs)**.  
-The project combines **Web Scraping**, **Python/Pandas**, and**Generative AI** to provide a unique perspective on **public opinion around current events**.
+The project combines **Web Scraping**, **Python/Pandas**, and**Generative AI** to provide a unique perspective on **public opinion around current events**
 
 ---
 
